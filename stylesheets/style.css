@@ -1,5 +1,50 @@
-body{
-    background-color: khaki;
-    font-family: monospace;
-    color: maroon;
+
+header{
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+header h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 5vmin;
+    letter-spacing: 2px;
+    padding: 15px 0px;
+}
+header a{
+    color: black;
+}
+header a:hover{
+    text-decoration: none;
+    color: darkgray;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+nav p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vmin;
+    letter-spacing: 1px;
+}
+.jumbotron{
+    position: relative;
+    top: 80px;
+    background-image: url("https://www.rokpaguesthouse.org/fileadmin/user_upload/1200px-Swayambhunath_Stupa_-Kathmandu_Nepal-0338_16.9.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+} 
+.jumbotron h2{
+    font-weight: 700;
+    font-size: 5vmin;
+    color: whitesmoke;
+    line-height: 50px;
+    text-shadow: 1px 2px 5px black;
+}
+.jumbotron span{
+    color: skyblue;
 }
