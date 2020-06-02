@@ -48,6 +48,27 @@ nav p{
 .jumbotron span{
     color: skyblue;
 }
+main{
+    position: relative;
+    top: 60px;
+}
+.tech-info{
+    margin: 50px 0px;
+}
+.tech-info h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 5vmin;
+    text-decoration: underline solid darkgray;
+}
+.tech-info-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tech-info-box img{
+    width: 8.5vmax;
+    height: auto;
+}
 @media(max-width: 1000px){
     header h1{
         font-family: 'Playfair Display', serif;
