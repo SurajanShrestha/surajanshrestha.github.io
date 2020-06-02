@@ -53,11 +53,11 @@ main{
     top: 60px;
 }
 .tech-info{
-    margin: 50px 0px;
+    margin: 60px 0px 80px 0px;
 }
 .tech-info h2{
     font-family: 'Playfair Display', serif;
-    font-size: 5vmin;
+    font-size: 4vmin;
     text-decoration: underline solid darkgray;
 }
 .tech-info-box{
@@ -68,6 +68,14 @@ main{
 .tech-info-box img{
     width: 8.5vmax;
     height: auto;
+}
+.projects-info{
+    margin: 60px 0px 80px 0px;
+}
+.projects-info h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 4vmin;
+    text-decoration: underline solid darkgray;
 }
 @media(max-width: 1000px){
     header h1{
