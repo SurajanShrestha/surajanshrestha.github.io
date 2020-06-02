@@ -30,7 +30,7 @@ nav p{
 .jumbotron{
     position: relative;
     top: 80px;
-    background-image: url("https://www.rokpaguesthouse.org/fileadmin/user_upload/1200px-Swayambhunath_Stupa_-Kathmandu_Nepal-0338_16.9.jpg");
+    background-image: url('../images/jumbotronImg.jpg');
     height: 100vmin;
     background-size: cover;
     background-position: center;
