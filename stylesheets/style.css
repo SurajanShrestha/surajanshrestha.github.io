@@ -31,7 +31,7 @@ nav p{
     position: relative;
     top: 80px;
     background-image: url("https://www.rokpaguesthouse.org/fileadmin/user_upload/1200px-Swayambhunath_Stupa_-Kathmandu_Nepal-0338_16.9.jpg");
-    height: 600px;
+    height: 100vmin;
     background-size: cover;
     background-position: center;
     font-family: 'Raleway', sans-serif;
@@ -47,4 +47,24 @@ nav p{
 }
 .jumbotron span{
     color: skyblue;
+}
+@media(max-width: 1000px){
+    header h1{
+        font-family: 'Playfair Display', serif;
+        font-size: 7vmin;
+        letter-spacing: 2px;
+        padding: 15px 0px;
+    }  
+    nav p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 4vmin;
+        letter-spacing: 1px;
+    }
+    .jumbotron h2{
+        font-weight: 700;
+        font-size: 6vmin;
+        color: whitesmoke;
+        line-height: 70px;
+        text-shadow: 1px 2px 5px black;
+    }
 }
