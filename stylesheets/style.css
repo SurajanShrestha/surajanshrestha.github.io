@@ -33,6 +33,7 @@ nav p{
     background-image: url('../images/jumbotronImg.jpg');
     height: 100vmin;
     background-size: cover;
+    background-position: center;
     font-family: 'Raleway', sans-serif;
     display: flex;
     align-items: center;
@@ -52,7 +53,7 @@ main{
     top: 60px;
 }
 .tech-info{
-    margin: 60px 0px 80px 0px;
+    margin: 100px 0px 80px 0px;
 }
 .tech-info h2{
     font-family: 'Playfair Display', serif;
@@ -69,12 +70,31 @@ main{
     height: auto;
 }
 .projects-info{
-    margin: 60px 0px 80px 0px;
+    margin: 150px 0px 60px 0px;
 }
 .projects-info h2{
     font-family: 'Playfair Display', serif;
     font-size: 4vmin;
     text-decoration: underline solid darkgray;
+}
+.projects-info-box{
+    padding: 15px;
+}
+.projects-info-box img{
+    width: 15vmax;
+    height: auto;
+    border: groove darkgrey 2px;
+    border-radius: 5px;
+}
+.projects-info-box img:hover{
+    -webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.projects-info-box p{
+    font-family: 'Playfair Display', serif;
+    font-size: 3vmin;
 }
 @media(max-width: 1000px){
     header h1{
