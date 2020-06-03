@@ -1,7 +1,9 @@
-
+body{
+    background-color: #9ecb76;
+}
 header{
     position: fixed;
-    background-color: white;
+    background-color: #eee3d4;
     z-index: 1;
 }
 header h1{
@@ -15,7 +17,7 @@ header a{
 }
 header a:hover{
     text-decoration: none;
-    color: darkgray;
+    color: #3e5986;
 }
 nav{
     display: flex;
@@ -26,6 +28,11 @@ nav p{
     font-family: 'Raleway', sans-serif;
     font-size: 3vmin;
     letter-spacing: 1px;
+}
+nav a:hover{
+    border: #9ecb76 solid 1px;
+    border-radius: 3px;
+    color: #3e5986;
 }
 .jumbotron{
     position: relative;
@@ -53,12 +60,13 @@ main{
     top: 60px;
 }
 .tech-info{
-    margin: 100px 0px 80px 0px;
+    margin: 40px 0px 0px 0px;
 }
 .tech-info h2{
     font-family: 'Playfair Display', serif;
     font-size: 4vmin;
     text-decoration: underline solid darkgray;
+    margin-bottom: 40px;
 }
 .tech-info-box{
     display: flex;
@@ -66,22 +74,24 @@ main{
     align-items: center;
 }
 .tech-info-box img{
-    width: 8.5vmax;
+    width: 6vmax;
     height: auto;
 }
 .projects-info{
-    margin: 150px 0px 60px 0px;
+    margin: 60px 0px 60px 0px;
+    border-top: white solid 1px;
 }
 .projects-info h2{
     font-family: 'Playfair Display', serif;
     font-size: 4vmin;
     text-decoration: underline solid darkgray;
+    margin-top: 30px;
 }
 .projects-info-box{
     padding: 15px;
 }
 .projects-info-box img{
-    width: 15vmax;
+    width: 10vmax;
     height: auto;
     border: groove darkgrey 2px;
     border-radius: 5px;
@@ -95,6 +105,51 @@ main{
 .projects-info-box p{
     font-family: 'Playfair Display', serif;
     font-size: 3vmin;
+}
+footer{
+    background-color: #3e5986;
+	width: 100%;
+	height: 100%;
+	border-bottom: 1px solid white;
+	margin-top: 100px;
+}
+footer div{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+footer img{
+	width: 3vmax;
+	height: auto;
+}
+footer img:hover{
+	opacity: 0.5;
+}
+footer h4{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 3vmin;
+	width: 30%;
+}
+.githubDiv{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.imgDiv{
+	width: 30%;
+	display: flex;
+	justify-content: space-around;
+}
+.imgDiv img{
+    width: 2.5vmax;
+    height: auto;
 }
 @media(max-width: 1000px){
     header h1{
